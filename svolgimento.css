@@ -116,3 +116,30 @@
     }
 }
 
+/* Esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: white_top 3s linear;
+}
+
+@keyframes white_top{
+    0% { 
+        left: 10%; 
+    }
+    50% { 
+        left: 60%; 
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: white_bottom 3s linear;
+}
+
+@keyframes white_bottom{
+    0% { 
+        right: 20%; 
+    }
+    50% { 
+        right: 60%; 
+    }
+}
+
