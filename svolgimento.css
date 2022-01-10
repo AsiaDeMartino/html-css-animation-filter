@@ -77,3 +77,15 @@
     border-radius: 10%;
 }
 
+/* Esercizio 9 */
+
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(1) drop-shadow(30px 10px 4px #804b11);
+    border-radius: 10%;
+    transform: scale(1.5);
+}
+
