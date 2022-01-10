@@ -89,3 +89,15 @@
     transform: scale(1.5);
 }
 
+/* Esercizio 10 */
+
+.ex-10-icon{
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
