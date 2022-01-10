@@ -101,3 +101,18 @@
     }
 }
 
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation: spinex11 3s linear;
+}
+
+@keyframes spinex11{
+    0% { 
+        transform: rotate( 0° ); 
+    }
+    75% { 
+        transform: rotate( 270° ); 
+    }
+}
+
